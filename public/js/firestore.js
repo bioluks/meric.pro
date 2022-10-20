@@ -1,13 +1,14 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyAt8SxakHO2Ybs2SS8gmJLbUSxIDPozYFA",
-    authDomain: "mericxyz.firebaseapp.com",
-    databaseURL: "https://mericxyz.firebaseio.com",
-    projectId: "mericxyz",
-    storageBucket: "mericxyz.appspot.com",
-    messagingSenderId: "1081628045199",
-    appId: "1:1081628045199:web:bd3b9ea26f4ce74d8ca5fa"
+    apiKey: "AIzaSyCwqAAPfh-I8AkNWU_a_Fo3Igv_j3J209g",
+    authDomain: "sitehomepersonal.firebaseapp.com",
+    databaseURL: "https://sitehomepersonal.firebaseio.com",
+    projectId: "sitehomepersonal",
+    storageBucket: "sitehomepersonal.appspot.com",
+    messagingSenderId: "500257117750",
+    appId: "1:500257117750:web:2b660fd22abd0804c62a97"
   };
+
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
@@ -21,7 +22,7 @@ var firebaseConfig = {
   let subject = document.querySelector('#subject');
   let message = document.querySelector('#message');
 
-  const db = firestore.collection("contactform");
+  const db = firestore.collection("webform");
 
   submitBtn.addEventListener('click', function() {
       let fullnameinput = fullname.value;
