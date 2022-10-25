@@ -7,9 +7,9 @@
   <meta name="description" content="Meriç Aşkın's personal website. Just looks cool. Once you enter there is no way out. For more shouldn't you just visit the site?">
   <meta name="author" content="Meriç Aşkın">
 
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script type="module" src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js"></script>
-  <script type="module" src="https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js"></script>
+  <!-- Firebase BS -->
+  <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js" loading="eager"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js" loading="eager"></script>
 
   <script src="js/buildSitemap.js"></script>
 
@@ -96,7 +96,7 @@
     <div class="pagepiling">
       <div data-anchor="page1" class="pp-scrollable text-white section section-1">
         <div class="scroll-wrap">
-          <div class="section-bg" style="background-image:url(images/bg/main.jpg);"></div>
+          <div class="section-bg" style="background-image:url(images/bg/main.jpg);" loading="eager" fetchpriority="high"></div>
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
@@ -130,18 +130,18 @@
                       <div class="row-specialization row">
                         <div class="col-specialization col-md-6 col-lg-4">
                           <span class="icon-specialization icon-laptop-phone"></span>
-                          <h4 class="text-uppercase">Tech Related (..everything?)</h4>
-                          <p>I did and still learn pretty much everything related to tech. From phone Operating systems to server container management (docker etc.), web development etc. </p>
+                          <h4 class="text-uppercase">Anything tech related (..curiosity)</h4>
+                          <p>Learning everything in the IT world is <i>impossible</i>. No matter the subject, everything that works with bits is something I want to work with someday. Check Page 3 [Experiences] for a summary, and for details download the resume below this page.</p>
                         </div>
                         <div class="col-specialization col-md-6 col-lg-4">
                           <span class="icon-specialization icon-smartphone-embed"></span>
                           <h4 class="text-uppercase">Coding</h4>
-                          <p>Like I said everything tech related: coding is in this. I love coding. Am I good at it? Yout time to judge.</p>
+                          <p>Since I like creating things expecially software wise, this is obviously a must have. Webdev, Python and entry level Java.</p>
                         </div>
                         <div class="col-specialization col-md-6 col-lg-4">
                           <span class="icon-specialization icon-diamond2"></span>
                           <h4 class="text-uppercase">Problem Solving</h4>
-                          <p><i>Problem Solving</i> is my main hobby, everything I do has problem solving kind of "built-in". This skill is not only tech related, as you'll notice.</p>
+                          <p><i>Problem Solving</i> is probably one of the most important skills someone can master. It's still a path I'm improving on. Wouldn't say I'm bad at it, but can't judge myself without bias.</p>
                         </div>
                       </div>
                       <div class="view-all">
@@ -159,7 +159,7 @@
       </div>
       <div data-anchor="page3" class="pp-scrollable text-white section section-3">
         <div class="scroll-wrap">
-          <div class="section-bg mask" style="background-image:url(images/bg/resume.jpg);"></div>
+          <div class="section-bg mask" style="background-image:url(images/bg/resume.jpg);" loading="lazy"></div>
           <div class="scrollable-content">
             <div class="vertical-title d-none d-lg-block"><span>resume</span></div>
             <div class="vertical-centred">
@@ -217,7 +217,7 @@
       </div>
       <div data-anchor="page4" class="pp-scrollable section section-4">
         <div class="scroll-wrap">
-          <div class="section-bg" style="background-image:url(images/bg/contact.jpg);"></div>
+          <div class="section-bg" style="background-image:url(images/bg/contact.jpg);" loading="lazy"></div>
           <div class="scrollable-content">
             <div class="vertical-title text-white d-none d-lg-block"><span>contact</span></div>
             <div class="vertical-centred">
